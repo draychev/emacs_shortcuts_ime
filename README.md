@@ -4,7 +4,9 @@ Enables emacs like keybindings on ChromeOS as an IME.
 
 ## How to use (Read carefully)
 
-* Install this extension [here](https://chrome.google.com/webstore/detail/emacs-shortcuts-ime/mkegpdcnenfnhenaliggngipehndddne)
+* Clone this repository or download the source
+* (Optional) run `./make.sh` to create a zip package
+* In Chrome navigate to `chrome://extensions`, enable **Developer mode** and choose **Load unpacked** to select this directory
 * Set shortcuts at [chrome://extensions/shortcuts](chrome://extensions/shortcuts) like below
 ![](images/screen_shortcuts.png)
 * Enable `US(Emacs)` IME in Input Method Setting
