@@ -1,12 +1,10 @@
 {
   "name": "Emacs shortcuts IME",
   "version": "0.0.3",
-  "manifest_version": 2,
+  "manifest_version": 3,
   "description": "US keyboard with emacs shortcut",
   "background": {
-    "scripts": [
-      "main.js"
-    ]
+    "service_worker": "background.js"
   },
   "permissions": [
     "input"
@@ -64,7 +62,7 @@
       "description": "Original Ctrl+F (not working)"
     }
   },
-  "browser_action": {
+  "action": {
     "default_popup": "popup.html"
   },
   "icons": {
